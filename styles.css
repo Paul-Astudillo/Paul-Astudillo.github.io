@@ -54,9 +54,7 @@ video {
   z-index: -1;
   object-fit: cover;
 }
-video {
-  transform: rotate(90deg);
-}
+
 #futbol {
   position: relative;
   animation-name: girar;
