@@ -62,4 +62,8 @@ video {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   cursor: pointer;
+  width: 200px;
+  height: auto;
+  
+
 }
