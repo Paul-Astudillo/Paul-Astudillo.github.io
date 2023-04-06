@@ -67,3 +67,90 @@ video {
   
 
 }
+
+
+body {
+  background-image: url("https://www.explica.me/__export/1662498402719/sites/debate/img/2022/09/06/pexels-miriam-espacio-110854_1.jpg_423682103.jpg");
+
+  text-align: center;
+}
+.sun {
+  background-color: #f90;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  animation: rotate-sun 5s linear infinite;
+}
+.planet {
+  position: absolute;
+  animation: rotate-planet 10s linear infinite;
+}
+.mercury {
+  background-color: #777;
+  height: 20px;
+  width: 20px;
+  top: 45%;
+  left: 45%;
+  margin-top: -10px;
+  margin-left: -10px;
+  animation: rotate-mercury 2s linear infinite;
+}
+.venus {
+  background-color: #c60;
+  height: 30px;
+  width: 30px;
+  top: 35%;
+  left: 35%;
+  margin-top: -15px;
+  margin-left: -15px;
+  animation: rotate-venus 3s linear infinite;
+}
+.earth {
+  background-color: #0af;
+  height: 35px;
+  width: 35px;
+  top: 25%;
+  left: 25%;
+  margin-top: -17.5px;
+  margin-left: -17.5px;
+  animation: rotate-earth 4s linear infinite;
+}
+.mars {
+  background-color: #f00;
+  height: 25px;
+  width: 25px;
+  top: 15%;
+  left: 15%;
+  margin-top: -12.5px;
+  margin-left: -12.5px;
+  animation: rotate-mars 5s linear infinite;
+}
+@keyframes rotate-sun {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes rotate-planet {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes rotate-mercury {
+  from { transform: rotate(0deg) translateX(50px); }
+  to { transform: rotate(360deg) translateX(50px); }
+}
+@keyframes rotate-venus {
+  from { transform: rotate(0deg) translateX(100px); }
+  to { transform: rotate(360deg) translateX(100px); }
+}
+@keyframes rotate-earth {
+  from { transform: rotate(0deg) translateX(150px); }
+  to { transform: rotate(360deg) translateX(150px); }
+}
+@keyframes rotate-mars {
+  from { transform: rotate(0deg) translateX(200px); }
+  to { transform: rotate(360deg) translateX(200px); }
+}
