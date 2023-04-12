@@ -19,6 +19,16 @@ nav {
   border-bottom: solid 1px #aaa;
   background-color: #eee;
 }
+a{
+  color: #f90;
+}
+h3 {
+  color: #f00;
+}
+h3 {
+  color:aqua;
+}
+
 
 nav a {
   display: inline-block;
@@ -28,7 +38,7 @@ nav a {
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color:#0af;
 }
 
 nav a[aria-current='page'] {
@@ -148,4 +158,33 @@ video {
 @keyframes rotate-mars {
   from { transform: rotate(0deg) translateX(200px); }
   to { transform: rotate(360deg) translateX(200px); }
+}
+
+
+/*EJEMPLO DE CSS CON FILAS PARES EN IMPARES DEL DOCUMENTO 
+TABLA*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 9px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Estilos para filas pares */
+tr:nth-child(even) {
+  background-color:yellow;
+}
+
+/* Estilos para filas impares */
+tr:nth-child(odd) {
+  background-color:#f00;
 }
